@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Carrier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Client.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Fighter.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Freighter.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shuttle.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Staff.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Staff/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Civillian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Freighter/Freighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Shuttle/Shuttle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Carrier/Carrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Fighter/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Military.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Spaceship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/enums/DepartmentEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/enums/PropulsionTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/enums/RaceEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/CSVService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2872zxa5yDz8NNp5JtPGAjFyl71" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Docs/Code/spaceshipdealership/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Docs\Code\spaceshipdealership\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.spaceshipdealership.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spaceshipdealership.Main" />
+      <module name="spaceshipdealership" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spaceshipdealership.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.spaceshipdealership.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spaceshipdealership.Main" />
+      <module name="spaceshipdealership" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spaceshipdealership.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.spaceshipdealership.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="" />
+      <created>1650553572057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650553572057</updated>
+      <workItem from="1650553573616" duration="281000" />
+      <workItem from="1650628952945" duration="2066000" />
+      <workItem from="1650631878604" duration="7838000" />
+      <workItem from="1650654013591" duration="3063000" />
+      <workItem from="1650709749636" duration="2387000" />
+      <workItem from="1651168718817" duration="1157000" />
+      <workItem from="1651248014484" duration="7441000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
