@@ -1,1 +1,4 @@
-a,b,c,d
+Model Name,Price,Propulsion Type,Power Output,FTL Speed,Cargo Capacity
+Fenrir,10000,DILITHIUM,120,2000,3000
+Providence,14000,DARK_MATTER,120,1900,2500
+Denobula,20000,DILITHIUM,130,2000,2850

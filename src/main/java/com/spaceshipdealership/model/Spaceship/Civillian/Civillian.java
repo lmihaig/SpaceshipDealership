@@ -6,8 +6,8 @@ import com.spaceshipdealership.model.enums.PropulsionTypeEnum;
 public class Civillian extends Spaceship {
     int ftlSpeed;
 
-    public Civillian(String modelName, int price, PropulsionTypeEnum populsionType, int ftlSpeed) {
-        super(modelName, price, populsionType);
+    public Civillian(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput, int ftlSpeed) {
+        super(modelName, price, populsionType, enginePowerOutput);
         this.ftlSpeed = ftlSpeed;
     }
 

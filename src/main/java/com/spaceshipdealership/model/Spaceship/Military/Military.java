@@ -6,8 +6,8 @@ import com.spaceshipdealership.model.enums.PropulsionTypeEnum;
 public class Military extends Spaceship {
     int shieldCapacity;
 
-    public Military(String modelName, int price, PropulsionTypeEnum populsionType, int shieldCapacity) {
-        super(modelName, price, populsionType);
+    public Military(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput, int shieldCapacity) {
+        super(modelName, price, populsionType, enginePowerOutput);
         this.shieldCapacity = shieldCapacity;
     }
 

@@ -1,1 +1,4 @@
-a,b,c,d
+Model Name,Price,Propulsion Type,Power Output,Shield Capacity,Guns No.
+TIE Line, 30000,ION,100,50,6
+Boaty McBoatface, 2000,HYDROGEN,50,0,1
+NCC-1701, 50000,DILITHIUM,120,120,20

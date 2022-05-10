@@ -6,8 +6,8 @@ import com.spaceshipdealership.model.enums.PropulsionTypeEnum;
 public class Shuttle extends Civillian {
     int passangerCapacity;
 
-    public Shuttle(String modelName, int price, PropulsionTypeEnum populsionType, int ftlSpeed, int passangerCapacity) {
-        super(modelName, price, populsionType, ftlSpeed);
+    public Shuttle(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput, int ftlSpeed, int passangerCapacity) {
+        super(modelName, price, populsionType, enginePowerOutput, ftlSpeed);
         this.passangerCapacity = passangerCapacity;
     }
 

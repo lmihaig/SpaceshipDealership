@@ -4,33 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Carrier.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Client.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Fighter.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Freighter.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Shuttle.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Staff.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Staff/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Civillian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Freighter/Freighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Shuttle/Shuttle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Carrier/Carrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Fighter/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Military.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Spaceship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/enums/DepartmentEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/enums/PropulsionTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/enums/RaceEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/CSVService.java" afterDir="false" />
+    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Carrier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Carrier.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Client.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Client.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Fighter.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Fighter.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Freighter.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Freighter.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Shuttle.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Shuttle.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Staff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Staff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Civillian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Civillian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Freighter/Freighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Freighter/Freighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Shuttle/Shuttle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Civillian/Shuttle/Shuttle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Carrier/Carrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Carrier/Carrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Fighter/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Fighter/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Military.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Military/Military.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Spaceship/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/enums/PropulsionTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/enums/PropulsionTypeEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Docs/Code/spaceshipdealership/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Docs/Facultate/facultate/An2/Sem2/eap/Lab/Lab10&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Docs\Code\spaceshipdealership\data" />
@@ -127,8 +116,19 @@
       <workItem from="1650654013591" duration="3063000" />
       <workItem from="1650709749636" duration="2387000" />
       <workItem from="1651168718817" duration="1157000" />
-      <workItem from="1651248014484" duration="7441000" />
+      <workItem from="1651248014484" duration="8280000" />
+      <workItem from="1651434845091" duration="4313000" />
+      <workItem from="1651555224918" duration="667000" />
+      <workItem from="1652195511769" duration="3452000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1651355523956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651355523956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +144,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

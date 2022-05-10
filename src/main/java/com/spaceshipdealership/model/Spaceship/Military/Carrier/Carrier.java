@@ -7,8 +7,8 @@ public class Carrier extends Military {
     int spaceMarinesCapacity;
     int spaceCraftCapacity;
 
-    public Carrier(String modelName, int price, PropulsionTypeEnum populsionType, int shieldCapacity, int spaceMarinesCapacity, int spaceCraftCapacity) {
-        super(modelName, price, populsionType, shieldCapacity);
+    public Carrier(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput, int shieldCapacity, int spaceMarinesCapacity, int spaceCraftCapacity) {
+        super(modelName, price, populsionType, enginePowerOutput, shieldCapacity);
         this.spaceMarinesCapacity = spaceMarinesCapacity;
         this.spaceCraftCapacity = spaceCraftCapacity;
     }
