@@ -3,6 +3,8 @@ package com.spaceshipdealership.model.Person.Client;
 import com.spaceshipdealership.model.Person.Person;
 import com.spaceshipdealership.model.enums.RaceEnum;
 
+import java.util.Objects;
+
 public class Client extends Person {
     private int clientID;
     private int energyCredits;
@@ -30,6 +32,20 @@ public class Client extends Person {
         this.energyCredits = energyCredits;
     }
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Client client = (Client) o;
+        return getClientID() == client.getClientID() && getEnergyCredits() == client.getEnergyCredits();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getClientID(), getEnergyCredits());
+    }
+
     @Override
     public String toString() {
         return "Client{" +
@@ -40,5 +56,9 @@ public class Client extends Person {
                 ", holophoneAdr='" + holophoneAdr + '\'' +
                 ", race='" + race + '\'' +
                 '}';
+    }
+
+    public String objectToCSV() {
+        return this.getFirstName() + "," + this.getLastName() + "," + this.getRace() + "," + this.getHolophoneAdr() + "," + this.getClientID() + "," + this.getEnergyCredits();
     }
 }

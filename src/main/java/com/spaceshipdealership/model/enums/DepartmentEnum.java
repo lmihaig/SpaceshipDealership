@@ -14,4 +14,13 @@ public enum DepartmentEnum {
     DepartmentEnum(String code) {
         this.code = code;
     }
+
+    public static DepartmentEnum fromString(String text) {
+        for (DepartmentEnum b : DepartmentEnum.values()) {
+            if (b.code.equalsIgnoreCase(text)) {
+                return b;
+            }
+        }
+        return null;
+    }
 }

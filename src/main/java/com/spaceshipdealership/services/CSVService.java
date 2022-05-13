@@ -1,10 +1,8 @@
 package com.spaceshipdealership.services;
 
-public interface CSVService {
+public interface CSVService<T> {
 
-    default void CSVread() {
-    }
+    T CSVread();
 
-    default void CSVwrite() {
-    }
+    void CSVwrite(T object);
 }
