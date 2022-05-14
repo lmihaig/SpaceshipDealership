@@ -4,10 +4,10 @@ import com.spaceshipdealership.model.Spaceship.Spaceship;
 import com.spaceshipdealership.model.enums.PropulsionTypeEnum;
 
 public class Military extends Spaceship {
-    int shieldCapacity;
+    protected int shieldCapacity;
 
-    public Military(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput, int shieldCapacity) {
-        super(modelName, price, populsionType, enginePowerOutput);
+    public Military(String modelName, int price, PropulsionTypeEnum propulsionType, int enginePowerOutput, int shieldCapacity) {
+        super(modelName, price, propulsionType, enginePowerOutput);
         this.shieldCapacity = shieldCapacity;
     }
 
@@ -23,6 +23,10 @@ public class Military extends Spaceship {
     public String toString() {
         return "Military{" +
                 "shieldCapacity=" + shieldCapacity +
+                ", modelName='" + modelName + '\'' +
+                ", price=" + price +
+                ", propulsionType=" + propulsionType +
+                ", enginePowerOutput=" + enginePowerOutput +
                 '}';
     }
 }

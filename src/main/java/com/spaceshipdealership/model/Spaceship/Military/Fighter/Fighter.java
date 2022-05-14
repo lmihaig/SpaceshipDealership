@@ -6,8 +6,8 @@ import com.spaceshipdealership.model.enums.PropulsionTypeEnum;
 public class Fighter extends Military {
     int numGuns;
 
-    public Fighter(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput, int shieldCapacity, int numGuns) {
-        super(modelName, price, populsionType, enginePowerOutput, shieldCapacity);
+    public Fighter(String modelName, int price, PropulsionTypeEnum propulsionType, int enginePowerOutput, int shieldCapacity, int numGuns) {
+        super(modelName, price, propulsionType, enginePowerOutput, shieldCapacity);
         this.numGuns = numGuns;
     }
 
@@ -23,6 +23,15 @@ public class Fighter extends Military {
     public String toString() {
         return "Fighter{" +
                 "numGuns=" + numGuns +
+                ", shieldCapacity=" + shieldCapacity +
+                ", modelName='" + modelName + '\'' +
+                ", price=" + price +
+                ", propulsionType=" + propulsionType +
+                ", enginePowerOutput=" + enginePowerOutput +
                 '}';
+    }
+
+    public String objectToCSV() {
+        return String.format("%s,%s,%s,%s,%s,%s", this.getModelName(), this.getPrice(), this.getPropulsionType(), this.getEnginePowerOutput(), this.getShieldCapacity(), this.getNumGuns());
     }
 }

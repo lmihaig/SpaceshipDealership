@@ -9,5 +9,5 @@ public enum RaceEnum {
     DWARF,
     ORK,
     KHAJIT,
-    OTHER;
+    OTHER
 }

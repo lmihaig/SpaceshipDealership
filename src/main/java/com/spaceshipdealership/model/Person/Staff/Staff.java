@@ -70,6 +70,6 @@ public class Staff extends Person {
     }
 
     public String objectToCSV() {
-        return this.getFirstName() + "," + this.getLastName() + "," + this.getRace() + "," + this.getHolophoneAdr() + "," + this.getEmployeeID() + "," + this.getDepartment().getCode() + "," + this.getSalary();
+        return String.format("%s,%s,%s,%s,%s,%s,%s", this.getFirstName(), this.getLastName(), this.getRace(), this.getHolophoneAdr(), this.getEmployeeID(), this.getDepartment().getCode(), this.getSalary());
     }
 }

@@ -4,15 +4,15 @@ import com.spaceshipdealership.model.enums.PropulsionTypeEnum;
 
 public abstract class Spaceship {
 
-    String modelName;
-    int price;
-    PropulsionTypeEnum populsionType;
-    int enginePowerOutput;
+    protected String modelName;
+    protected int price;
+    protected PropulsionTypeEnum propulsionType;
+    protected int enginePowerOutput;
 
-    public Spaceship(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput) {
+    public Spaceship(String modelName, int price, PropulsionTypeEnum propulsionType, int enginePowerOutput) {
         this.modelName = modelName;
         this.price = price;
-        this.populsionType = populsionType;
+        this.propulsionType = propulsionType;
         this.enginePowerOutput = enginePowerOutput;
     }
 
@@ -32,12 +32,12 @@ public abstract class Spaceship {
         this.price = price;
     }
 
-    public PropulsionTypeEnum getPopulsionType() {
-        return populsionType;
+    public PropulsionTypeEnum getPropulsionType() {
+        return propulsionType;
     }
 
-    public void setPopulsionType(PropulsionTypeEnum populsionType) {
-        this.populsionType = populsionType;
+    public void setPropulsionType(PropulsionTypeEnum propulsionType) {
+        this.propulsionType = propulsionType;
     }
 
     public int getEnginePowerOutput() {
@@ -53,7 +53,7 @@ public abstract class Spaceship {
         return "Spaceship{" +
                 "modelName='" + modelName + '\'' +
                 ", price=" + price +
-                ", populsionType=" + populsionType +
+                ", propulsionType=" + propulsionType +
                 ", enginePowerOutput=" + enginePowerOutput +
                 '}';
     }

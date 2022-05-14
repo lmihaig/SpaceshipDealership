@@ -59,6 +59,8 @@ public class Client extends Person {
     }
 
     public String objectToCSV() {
-        return this.getFirstName() + "," + this.getLastName() + "," + this.getRace() + "," + this.getHolophoneAdr() + "," + this.getClientID() + "," + this.getEnergyCredits();
+        return String.format("%s,%s,%s,%s,%s,%s", this.getFirstName(), this.getLastName(), this.getRace(), this.getHolophoneAdr(), this.getClientID(), this.getEnergyCredits());
     }
+
+
 }

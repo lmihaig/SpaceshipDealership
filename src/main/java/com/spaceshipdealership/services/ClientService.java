@@ -1,9 +1,8 @@
 package com.spaceshipdealership.services;
 
-import com.spaceshipdealership.exceptions.InsufficientFunds;
 import com.spaceshipdealership.model.Person.Client.Client;
-import com.spaceshipdealership.model.Spaceship.Spaceship;
 import com.spaceshipdealership.model.enums.RaceEnum;
+import com.spaceshipdealership.model.exceptions.ListErrorException;
 
 import java.io.*;
 import java.util.*;
@@ -11,7 +10,7 @@ import java.util.*;
 public class ClientService implements CSVService<Set<Client>> {
     private static ClientService INSTANCE;
 
-    private static final String FILE_PATH = "data/Client.csv";
+    private static final String FILE_PATH = "data/Clients.csv";
     private Set<Client> clients;
 
     private ClientService() {
@@ -28,16 +27,24 @@ public class ClientService implements CSVService<Set<Client>> {
     public void printClients() {
         Integer i = 0;
         this.clients = CSVread();
-        for (Client client : this.clients) {
-            System.out.println(i.toString() + " - " + client.toString());
-            i++;
+        if (this.clients.isEmpty()) {
+            throw new ListErrorException("clients");
+        } else {
+            for (Client client : this.clients) {
+                System.out.println(i + " - " + client.toString());
+                i++;
+            }
         }
     }
 
-    public void addClient(Scanner scanner) {
-
-        this.clients.add(new Client());
+    public Client addClient(Scanner scanner) {
+        System.out.println("First Name,Last Name,Race,Holophone Address,Client ID,Energy Credits");
+        Client newClient;
+        String[] splitLine = scanner.next().split(",");
+        newClient = new Client(splitLine[0], splitLine[1], RaceEnum.valueOf(splitLine[2]), splitLine[3], Integer.parseInt(splitLine[4]), Integer.parseInt(splitLine[5]));
+        this.clients.add(newClient);
         CSVwrite(this.clients);
+        return newClient;
     }
 
     public Client getClientByIndex(int index) {
@@ -46,27 +53,20 @@ public class ClientService implements CSVService<Set<Client>> {
         return newClients.get(index);
     }
 
-    public void removeClient(int index) {
-        // workaround to remove by index in a set
-        List<Client> newClients = new ArrayList<>(this.clients);
-        newClients.remove(index);
-        this.clients = Set.copyOf(newClients);
+    public Client removeClient(int index) {
+        Client clientToRemove = getClientByIndex(index);
+        this.clients.remove(clientToRemove);
         CSVwrite(this.clients);
+        return clientToRemove;
     }
 
-    public void buyShip(Client client, Spaceship ship) {
-        try {
-            int newBalance = client.getEnergyCredits() - ship.getPrice();
-            if (newBalance < 0) {
-                throw new InsufficientFunds();
-            } else {
+    public void updateBalance(Client client, int newBalance) {
+        for (Client clientIter : this.clients) {
+            if (clientIter.equals(client)) {
                 client.setEnergyCredits(newBalance);
-                //TODO: remove spaceship pls
-                CSVwrite(clients);
             }
-        } catch (InsufficientFunds e) {
-            e.printStackTrace();
         }
+        CSVwrite(this.clients);
     }
 
     @Override

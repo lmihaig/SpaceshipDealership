@@ -7,8 +7,8 @@ public class Carrier extends Military {
     int spaceMarinesCapacity;
     int spaceCraftCapacity;
 
-    public Carrier(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput, int shieldCapacity, int spaceMarinesCapacity, int spaceCraftCapacity) {
-        super(modelName, price, populsionType, enginePowerOutput, shieldCapacity);
+    public Carrier(String modelName, int price, PropulsionTypeEnum propulsionType, int enginePowerOutput, int shieldCapacity, int spaceMarinesCapacity, int spaceCraftCapacity) {
+        super(modelName, price, propulsionType, enginePowerOutput, shieldCapacity);
         this.spaceMarinesCapacity = spaceMarinesCapacity;
         this.spaceCraftCapacity = spaceCraftCapacity;
     }
@@ -34,6 +34,15 @@ public class Carrier extends Military {
         return "Carrier{" +
                 "spaceMarinesCapacity=" + spaceMarinesCapacity +
                 ", spaceCraftCapacity=" + spaceCraftCapacity +
+                ", shieldCapacity=" + shieldCapacity +
+                ", modelName='" + modelName + '\'' +
+                ", price=" + price +
+                ", propulsionType=" + propulsionType +
+                ", enginePowerOutput=" + enginePowerOutput +
                 '}';
+    }
+
+    public String objectToCSV() {
+        return String.format("%s,%s,%s,%s,%s,%s,%s", this.getModelName(), this.getPrice(), this.getPropulsionType(), this.getEnginePowerOutput(), this.getShieldCapacity(), this.getSpaceMarinesCapacity(), this.getSpaceCraftCapacity());
     }
 }

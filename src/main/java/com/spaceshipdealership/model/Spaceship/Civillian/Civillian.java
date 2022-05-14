@@ -4,10 +4,10 @@ import com.spaceshipdealership.model.Spaceship.Spaceship;
 import com.spaceshipdealership.model.enums.PropulsionTypeEnum;
 
 public class Civillian extends Spaceship {
-    int ftlSpeed;
+    protected int ftlSpeed;
 
-    public Civillian(String modelName, int price, PropulsionTypeEnum populsionType, int enginePowerOutput, int ftlSpeed) {
-        super(modelName, price, populsionType, enginePowerOutput);
+    public Civillian(String modelName, int price, PropulsionTypeEnum propulsionType, int enginePowerOutput, int ftlSpeed) {
+        super(modelName, price, propulsionType, enginePowerOutput);
         this.ftlSpeed = ftlSpeed;
     }
 
@@ -23,6 +23,10 @@ public class Civillian extends Spaceship {
     public String toString() {
         return "Civillian{" +
                 "ftlSpeed=" + ftlSpeed +
+                ", modelName='" + modelName + '\'' +
+                ", price=" + price +
+                ", propulsionType=" + propulsionType +
+                ", enginePowerOutput=" + enginePowerOutput +
                 '}';
     }
 }

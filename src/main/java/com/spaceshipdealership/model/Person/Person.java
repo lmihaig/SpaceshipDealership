@@ -55,4 +55,6 @@ public abstract class Person {
                 ", holophoneAdr='" + holophoneAdr + '\'' +
                 '}';
     }
+
+
 }

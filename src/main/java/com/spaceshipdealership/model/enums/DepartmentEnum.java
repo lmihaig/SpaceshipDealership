@@ -2,7 +2,7 @@ package com.spaceshipdealership.model.enums;
 
 public enum DepartmentEnum {
     SALES("S"),
-    ACCOUNTING("F"),
+    ACCOUNTING("A"),
     TECHNICIANS("T");
 
     private final String code;
