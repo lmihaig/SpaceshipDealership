@@ -95,6 +95,7 @@ public class Main {
                                 clientService.printClients();
                                 option = scanner.nextInt();
                                 newClient = clientService.getClientByIndex(option);
+                                auditService.AuditStaffActions(staff, newClient, "updated");
                                 clientService.updateClient(newClient, clientService.createClient(scanner));
                             } catch (RuntimeException e) {
                                 e.printStackTrace();
