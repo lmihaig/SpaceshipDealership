@@ -8,9 +8,8 @@ import java.io.*;
 import java.util.*;
 
 public class ClientService implements CSVService<Set<Client>> {
-    private static ClientService INSTANCE;
-
     private static final String FILE_PATH = "data/Clients.csv";
+    private static ClientService INSTANCE;
     private Set<Client> clients;
 
     private ClientService() {

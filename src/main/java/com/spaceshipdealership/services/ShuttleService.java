@@ -10,10 +10,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ShuttleService implements CSVService<List<Shuttle>> {
-    private static ShuttleService INSTANCE;
-
     private static final String FILE_PATH = "data/Shuttles.csv";
-
+    private static ShuttleService INSTANCE;
     private List<Shuttle> shuttles;
 
     private ShuttleService() {

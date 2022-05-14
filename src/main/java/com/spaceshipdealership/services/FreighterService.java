@@ -10,10 +10,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FreighterService implements CSVService<List<Freighter>> {
-    private static FreighterService INSTANCE;
-
     private static final String FILE_PATH = "data/Freighters.csv";
-
+    private static FreighterService INSTANCE;
     private List<Freighter> freighters;
 
     private FreighterService() {

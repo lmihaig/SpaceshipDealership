@@ -10,10 +10,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FighterService implements CSVService<List<Fighter>> {
-    private static FighterService INSTANCE;
-
     private static final String FILE_PATH = "data/Fighters.csv";
-
+    private static FighterService INSTANCE;
     private List<Fighter> fighters;
 
     private FighterService() {

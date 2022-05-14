@@ -7,10 +7,6 @@ public enum DepartmentEnum {
 
     private final String code;
 
-    public String getCode() {
-        return code;
-    }
-
     DepartmentEnum(String code) {
         this.code = code;
     }
@@ -22,5 +18,9 @@ public enum DepartmentEnum {
             }
         }
         return null;
+    }
+
+    public String getCode() {
+        return code;
     }
 }

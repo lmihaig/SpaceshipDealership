@@ -11,8 +11,8 @@ import java.util.*;
 
 
 public class StaffService implements CSVService<Set<Staff>> {
-    private static StaffService INSTANCE;
     private static final String FILE_PATH = "data/Staff.csv";
+    private static StaffService INSTANCE;
     private Set<Staff> staff;
 
     private StaffService() {

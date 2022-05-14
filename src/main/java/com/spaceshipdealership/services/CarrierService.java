@@ -10,10 +10,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class CarrierService implements CSVService<List<Carrier>> {
-    private static CarrierService INSTANCE;
-
     private static final String FILE_PATH = "data/Carriers.csv";
-
+    private static CarrierService INSTANCE;
     private List<Carrier> carriers;
 
     private CarrierService() {

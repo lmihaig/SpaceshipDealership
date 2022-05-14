@@ -17,9 +17,8 @@ import java.util.Objects;
 public class AuditService {
 
 
-    private static AuditService INSTANCE;
-
     private static final String FILE_PATH = "data/Audit.csv";
+    private static AuditService INSTANCE;
 
     private AuditService() {
 
