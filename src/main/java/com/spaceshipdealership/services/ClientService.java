@@ -59,10 +59,15 @@ public class ClientService implements CSVService<Set<Client>> {
         return clientToRemove;
     }
 
-    public void updateBalance(Client client, int newBalance) {
+    public void updateClient(Client client, Client newClient) {
         for (Client clientIter : this.clients) {
             if (clientIter.equals(client)) {
-                client.setEnergyCredits(newBalance);
+                client.setClientID(newClient.getClientID());
+                client.setEnergyCredits(newClient.getEnergyCredits());
+                client.setLastName(newClient.getLastName());
+                client.setFirstName(newClient.getFirstName());
+                client.setHolophoneAdr(newClient.getHolophoneAdr());
+                client.setRace(newClient.getRace());
             }
         }
         CSVwrite(this.clients);

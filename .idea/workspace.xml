@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="added services, audit, exceptions">
+    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="reformat">
+      <change afterPath="$PROJECT_DIR$/data1/Audit.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data1/Carriers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data1/Clients.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data1/Fighters.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data1/Freighters.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data1/Shuttles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data1/Staff.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/SpaceshipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/SpaceshipService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/lmg/Desktop",
+    "last_opened_file_path": "C:/Docs/Code/spaceshipdealership",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "settings.editor.selected.configurable": "actions.on.save"
@@ -123,7 +132,7 @@
       <workItem from="1652399711563" duration="3651000" />
       <workItem from="1652461502556" duration="7699000" />
       <workItem from="1652477676577" duration="14000" />
-      <workItem from="1652522334681" duration="26763000" />
+      <workItem from="1652522334681" duration="28173000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1651355523956</created>
@@ -153,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652552709306</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reformat">
+      <created>1652556311675</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652556311675</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +190,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="added services for Client" />
     <MESSAGE value="added services, audit, exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added services, audit, exceptions" />
+    <MESSAGE value="reformat" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformat" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

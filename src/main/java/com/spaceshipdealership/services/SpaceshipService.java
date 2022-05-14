@@ -100,8 +100,11 @@ public class SpaceshipService {
         if (newBalance < 0) {
             throw new InsufficientFundsException();
         } else {
-            clientService.updateBalance(client, newBalance);
+            Client newClient = new Client(client);
+            newClient.setEnergyCredits(newBalance);
+            clientService.updateClient(client, newClient);
             removeShipByOption(option, shipToBuy);
+            System.out.println("New balance: " + newBalance);
             return ship;
         }
     }

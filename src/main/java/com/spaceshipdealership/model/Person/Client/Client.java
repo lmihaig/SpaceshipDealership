@@ -16,6 +16,12 @@ public class Client extends Person {
         this.energyCredits = energyCredits;
     }
 
+    public Client(Client c) {
+        super(c.firstName, c.lastName, c.race, c.holophoneAdr);
+        this.clientID = c.clientID;
+        this.energyCredits = c.energyCredits;
+    }
+
     public int getClientID() {
         return clientID;
     }
@@ -61,6 +67,5 @@ public class Client extends Person {
     public String objectToCSV() {
         return String.format("%s,%s,%s,%s,%s,%s", this.getFirstName(), this.getLastName(), this.getRace(), this.getHolophoneAdr(), this.getClientID(), this.getEnergyCredits());
     }
-
 
 }
