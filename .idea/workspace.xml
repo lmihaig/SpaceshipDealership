@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="reformat">
-      <change afterPath="$PROJECT_DIR$/data1/Audit.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data1/Carriers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data1/Clients.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data1/Fighters.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data1/Freighters.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data1/Shuttles.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data1/Staff.csv" afterDir="false" />
+    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="added backup data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/model/Person/Client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/SpaceshipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/SpaceshipService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Docs/Code/spaceshipdealership",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Docs/Code/spaceshipdealership&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.spaceshipdealership.services" />

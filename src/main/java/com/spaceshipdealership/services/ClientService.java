@@ -36,11 +36,16 @@ public class ClientService implements CSVService<Set<Client>> {
         }
     }
 
-    public Client addClient(Scanner scanner) {
+    public Client createClient(Scanner scanner) {
         System.out.println("First Name,Last Name,Race,Holophone Address,Client ID,Energy Credits");
         Client newClient;
         String[] splitLine = scanner.next().split(",");
         newClient = new Client(splitLine[0], splitLine[1], RaceEnum.valueOf(splitLine[2]), splitLine[3], Integer.parseInt(splitLine[4]), Integer.parseInt(splitLine[5]));
+        return newClient;
+    }
+
+    public Client addClient(Scanner scanner) {
+        Client newClient = createClient(scanner);
         this.clients.add(newClient);
         CSVwrite(this.clients);
         return newClient;

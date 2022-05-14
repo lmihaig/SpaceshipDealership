@@ -61,15 +61,16 @@ public class Main {
                     System.out.println("""
                             1.List all clients
                             2.Add new client
-                            3.Remove client
-                            4.List ships
-                            5.Add new ship
-                            6.Remove ship
-                            7.List all staff
-                            8.Add staff
-                            9.Remove staff
-                            10.Log out
-                            11.Exit""");
+                            3.Update client
+                            4.Remove client
+                            5.List ships
+                            6.Add new ship
+                            7.Remove ship
+                            8.List all staff
+                            9.Add staff
+                            10.Remove staff
+                            11.Log out
+                            12.Exit""");
                     option = scanner.nextInt();
                     switch (option) {
                         case 1 -> {
@@ -90,6 +91,17 @@ public class Main {
                             }
                         }
                         case 3 -> {
+                            try {
+                                clientService.printClients();
+                                option = scanner.nextInt();
+                                newClient = clientService.getClientByIndex(option);
+                                clientService.updateClient(newClient, clientService.createClient(scanner));
+                            } catch (RuntimeException e) {
+                                e.printStackTrace();
+                                System.out.println("Invalid option.");
+                            }
+                        }
+                        case 4 -> {
                             clientService.printClients();
                             option = scanner.nextInt();
                             try {
@@ -100,7 +112,7 @@ public class Main {
                                 System.out.println("Invalid option.");
                             }
                         }
-                        case 4 -> {
+                        case 5 -> {
                             try {
                                 spaceshipService.printShips(scanner);
                                 auditService.AuditList(staff, "ships");
@@ -108,7 +120,7 @@ public class Main {
                                 e.printStackTrace();
                             }
                         }
-                        case 5 -> {
+                        case 6 -> {
                             try {
                                 ship = spaceshipService.addShip(scanner);
                                 auditService.AuditStaffActions(staff, ship, "added");
@@ -117,7 +129,7 @@ public class Main {
                                 System.out.println("Invalid option.");
                             }
                         }
-                        case 6 -> {
+                        case 7 -> {
                             try {
                                 ship = spaceshipService.removeShip(scanner);
                                 auditService.AuditStaffActions(staff, ship, "removed");
@@ -126,7 +138,7 @@ public class Main {
                                 System.out.println("Invalid option.");
                             }
                         }
-                        case 7 -> {
+                        case 8 -> {
                             try {
                                 staffService.printStaff();
                                 auditService.AuditList(staff, "staff");
@@ -134,7 +146,7 @@ public class Main {
                                 e.printStackTrace();
                             }
                         }
-                        case 8 -> {
+                        case 9 -> {
                             try {
                                 newStaff = staffService.addStaff(scanner);
                                 auditService.AuditStaffActions(staff, newStaff, "added");
@@ -143,7 +155,7 @@ public class Main {
                                 System.out.println("Invalid option.");
                             }
                         }
-                        case 9 -> {
+                        case 10 -> {
                             staffService.printStaff();
                             option = scanner.nextInt();
                             try {
@@ -154,11 +166,11 @@ public class Main {
                                 System.out.println("Invalid option.");
                             }
                         }
-                        case 10 -> {
+                        case 11 -> {
                             login = false;
                             auditService.AuditAuthentification(staff, "logout");
                         }
-                        case 11 -> {
+                        case 12 -> {
                             System.out.println("Transmission terminated. Live long and prosper.");
                             running = false;
                             auditService.AuditAuthentification(staff, "exit");
