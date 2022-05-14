@@ -87,7 +87,7 @@ public class AuditService {
 
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-        text = formatter.format(date) + " - " + text;
+        text = formatter.format(date) + "," + text;
         try {
             BufferedWriter textWriter = new BufferedWriter(new FileWriter(file, true));
             textWriter.write(text);

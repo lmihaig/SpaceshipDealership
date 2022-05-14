@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="update client">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/Main.java" afterDir="false" />
+    <list default="true" id="cdbcd2d7-6f58-47a6-ae89-4cf1e6fa448d" name="Changes" comment="audit update client">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/AuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spaceshipdealership/services/AuditService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Docs/Code/spaceshipdealership&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/lmg/Desktop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.spaceshipdealership.services" />
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652562201464</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="audit update client">
+      <created>1652562389304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652562389304</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +196,8 @@
     <MESSAGE value="added services, audit, exceptions" />
     <MESSAGE value="reformat" />
     <MESSAGE value="update client" />
-    <option name="LAST_COMMIT_MESSAGE" value="update client" />
+    <MESSAGE value="audit update client" />
+    <option name="LAST_COMMIT_MESSAGE" value="audit update client" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
